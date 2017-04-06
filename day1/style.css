@@ -1,0 +1,40 @@
+ @font-face {
+    font-family: Roboto; /* Им;я шрифта */
+    src: url(fonts/roboto.ttf); /* Путь к файлу со шрифтом */
+   }
+
+html {
+font-family: roboto;
+}
+
+
+body {
+	margin: 0px;
+}
+
+#header {
+	display: block;
+	width: 100%;
+	background: #ccc;
+	position: relative;
+	height: 100%;
+	padding: 5px;
+}
+
+#content {
+	padding-top: 10px;
+}
+
+h1 {text-indent: 10px;
+color: #fff;
+text-transform: uppercase;
+}
+
+ul,a {
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style-type: none;
+
+	
+}
+
