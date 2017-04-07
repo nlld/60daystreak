@@ -26,21 +26,43 @@ body {
 	padding-top: 10px;
 }
 
-h1 {text-indent: 12px;
-color: #fff;
-text-transform: uppercase;
+h1 {
+	text-indent: 12px;
+    display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
 }
 
 ul,a {
 	text-transform: uppercase;
 	text-decoration: none;
 	list-style-type: none;
+	color: #5f646d;
+	font-size: 30px;
 
 }
 
+.floatright{
+	display: inline-block;
+	position: relative;
+	float: right;
+	padding-top: 7px;
+	padding-right: 7px;
+	  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+
+ .myClass {
+ filter: none !important;
+ -webkit-filter: grayscale(0) !important; 
+ filter: grayscale(0) !important; 
+}
+
+
 
 #footer {
-	  position: absolute;
+  position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
