@@ -42,6 +42,10 @@ ul,a {
 
 }
 
+ul {
+	    line-height: 56px;
+}
+
 .floatright{
 	display: inline-block;
 	position: relative;
